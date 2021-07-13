@@ -2605,6 +2605,7 @@ window.onload = ()=> {
         
         
         let div = document.createElement('div');
+        div.style.cursor = "pointer";
         div.addEventListener("mousedown", () => {
           // console.log("clicked");
           info.style.display = "flex";
@@ -2619,10 +2620,10 @@ window.onload = ()=> {
           contents.innerText = `GestalterInnen: ${GestalterInnen === undefined ? "" :GestalterInnen}`;
             // contents.innerText = content;
             // *********
-            divcontainer.style.display = "none";
-            setTimeout(() => {
-              divcontainer.style.display = "flex";
-            },3000);
+            // divcontainer.style.display = "none";
+            // setTimeout(() => {
+            //   divcontainer.style.display = "flex";
+            // },3000);
             
             
         })
@@ -2630,14 +2631,14 @@ window.onload = ()=> {
             // console.log("clicked");
             info.style.display = "none";
         })
-        // div.addEventListener('mouseover', () => {
-        //   divcontainer.style.display = "none";
-        // })
+        div.addEventListener('mouseover', () => {
+          divcontainer.style.display = "none";
+        })
     
-          // div.addEventListener('mousedown', () => {
+          div.addEventListener('mouseout', () => {
 
-          //   divcontainer.style.display = "flex";
-          // })
+            divcontainer.style.display = "flex";
+          })
        
 
         let colors = document.createElement('img');

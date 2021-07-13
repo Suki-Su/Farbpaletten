@@ -148,6 +148,7 @@ body{
     flex-direction: column;
     top:0;
     left:0;
+    cursor: pointer;
 }
 /* color */
 .visible{
