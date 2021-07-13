@@ -176,7 +176,7 @@ body{
     top:0;
     right: 0;
     
-    color: black;
+    color: rgba(20, 20, 20, 1);
     font-size: 25px;
     padding: 40px 30px 10px 30px;
     /* overflow: scroll; */
@@ -194,7 +194,7 @@ body{
     background: white;
     font-size: 50px;
     font-weight: 500;
-    color: black;
+    color: rgba(20, 20, 20, 1);
     padding:0;
     margin:0;
 
@@ -209,14 +209,14 @@ body{
 .titleD{
     width:100%;
     
-    font-weight: 700;
+    font-weight: 500;
     font-size: var(--font-size);
 }
 
 .contents{
     width:100%;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: var(--font-size);
 }
 
@@ -227,11 +227,11 @@ footer{
     align-items: center;
     padding: 0 var(--padding-left);
     justify-content: space-between;
-    font-weight: 700;
+    font-weight: 500;
     font-size: var(--font-size);
 }
 .button{
-    font-size: 27px;
+    font-size: 25px;
 }
 .button button{
     width:90px;
@@ -260,7 +260,7 @@ footer{
     width: 40%;
     height: calc(100vh - var(--footer-height));
     padding: 80px 30px 30px 30px;
-    color: black;
+    color: rgba(20, 20, 20, 1);
     font-size: var(--font-size);
     font-weight: 500;
     display: none;
@@ -291,7 +291,7 @@ button{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgba(20, 20, 20, 1);
 }
 
 a:hover{
