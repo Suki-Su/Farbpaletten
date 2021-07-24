@@ -166,7 +166,7 @@ body{
 
 .info{
     
-    width: 40%;
+    width: 40.8%;
     height: calc(100vh - var(--footer-height));
     position: fixed;
     display:flex;
@@ -257,7 +257,7 @@ footer{
     right:0;
 
     background-color: white;
-    width: 40%;
+    width: 40.8%;
     height: calc(100vh - var(--footer-height));
     padding: 80px 30px 30px 30px;
     color: rgba(20, 20, 20, 1);
